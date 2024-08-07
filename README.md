@@ -19,11 +19,17 @@ xDistance、yDistance、zDistance分别是指定轴方向的平移，这个平�
 scale是放缩该部件，这里不做赘述。
 # 连接solidworks 
 打开solidworks后 连接solidworks 这里我写了一个简单的界面的连接按钮。
+
 ![屏幕截图 2024-08-07 142742](https://github.com/user-attachments/assets/72ed5d46-108e-4adc-8fe6-c05b55be0460)
+
 连接成功 
+
 ![屏幕截图 2024-08-07 142704](https://github.com/user-attachments/assets/6dc80dfe-6e9a-4476-a8c5-67905fe08ed6)
+
 即可对物块进行操作了，例如 旋转30° 
+
 ![屏幕截图 2024-08-07 142854](https://github.com/user-attachments/assets/190aa291-b518-498a-8d0d-4fd72354c0b5)
+
 
 # 进行碰撞检测
 bool CheckForInterference() 调用后如果当前所有界面中有碰撞 那么会返回true 否则返回false
